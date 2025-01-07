@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: aqua;
+}
+.download-btn{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+.projects-language{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.slide-img{
+    width: 400px;
+    height: 200px;
+}
+.quality-card{
+    margin-top: 40px;
+}
+.contact-form{
+    width: 40%;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+    .contact-form{
+        width: 100%;
+        padding: 20px;
+    }
+}

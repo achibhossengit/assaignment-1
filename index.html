@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img style="width: 100px" src="icons/logo.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex gap-3 ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Skill</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="download-btn" href="https://drive.google.com/file/d/1THXkmk9uLEHFkrwQ2PyzkVI3DQo0BCWv/view?usp=sharing" target="_blank" download="new.pdf">Resume</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="text-white">
+      <section class="banner-container d-lg-flex ">
+        <div class="banner-text-container p-5 w-lg-50">
+          <div class="banner-title">
+            <h1><span style="color: aqua; font-size: larger; font-family: 'Times New Roman', Times, serif;">HI !<br>I am Gias Uddin</span></h1>
+            <h5>Web Devloper || React Devloper || Programmer</h5> <br>
+            <p>I am an enthusiastic JavaScript developer with knowing some framework for the 
+              frontend and the backend. I know Basic PHP and MySQL but basically a MERN 
+              developer.</p>
+          </div>
+          <div class="banner-link d-flex gap-3">
+            <a href="https://github.com/achibhossengit" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://web.facebook.com/achib.hossen.2024" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/achib-hossen-932869316/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@achibhossen" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a class="download-btn text-white" href="https://drive.google.com/file/d/1Z9Q2wBl0W8z2l_DFwHTJ-Cyce5N8S_Qv/view?usp=sharing" target="_blank" download="new.pdf">Resume</a>
+          </div>
+        </div>
+        <div class="w-lg-50 d-flex">
+            <img class="w-50 w-sm-25 me-lg-3 ms-lg-auto ms-5" src="images/gias.jpg" alt="Profile Picture">
+        </div>
+      </section>
+      <section class="portfolio-container">
+        <h1 style="text-align: center; padding: 20px;">Portfolio</h1>
+        <div class="portfolio-card border w-75 d-lg-flex mx-auto">
+          <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="projects-img/travel-guru-map.png" class="d-block slide-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="projects-img/Travel-Search.png" class="d-block slide-img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="card-text p-4">
+            <div class="d-flex align-items-center gap-3">
+              <h3>A Ride Sharing Application</h3>
+              <a style="color: aqua;" href=""><i class="fa-solid fa-angle-right"></i></a>
+              <a style="color: aqua;" href=""><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+            <p>Urban Rider is a global ride-hailing service that allows users to book rides through a mobile app. Urban Rider operates by connecting passengers with drivers who use their own vehicles to provide rides. Users can request rides through the Urban Rider app, which shows the estimated fare, pick-up location, and estimated time of arrival.</p>
+            <div>
+              <ul class="projects-language">
+                <li>React</li>
+                <li>Firebase</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Node</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="portfolio-card border w-75 d-lg-flex mx-auto">
+          <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="projects-img/daraz2.jpeg" class="d-block slide-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="projects-img/daraz1.png" class="d-block slide-img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="card-text p-4">
+          <div class="d-flex align-items-center gap-3">
+            <h3>Daraz Online Shoping Site</h3>
+            <a style="color: aqua;" href=""><i class="fa-solid fa-angle-right"></i></a>
+            <a style="color: aqua;" href=""><i class="fa-solid fa-angle-up"></i></a>
+          </div>
+            <p>
+              Daraz is a popular Bangladeshi e-commerce platform that serves as an online marketplace for shopping. Founded in 2014, it allows customers to buy a wide range of products such as clothing, electronics, household items, books, cosmetics, toys, and more, all through the internet.Daraz operates as a prime platform where sellers can list their products, and buyers can conveniently place orders.</p>
+            <div>
+              <ul class="projects-language">
+                <li>React</li>
+                <li>Firebase</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Tailwind CSS</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quality-container p-5 d-lg-flex align-items-lg-center mx-auto">
+        <div class="it-quality">
+          <div class="quality-card">
+            <h3>Expertise:</h3>
+            <ul class="projects-language">
+              <li>React.js</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>Firebase</li>
+              <li>HTML</li>
+              <li>Express.js</li>
+              <li>Bootstrap</li>
+              <li>MongoDB</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="quality-card">
+            <h3>Comfortable:</h3>
+            <ul class="projects-language">
+              <li>MySQL</li>
+              <li>Python</li>
+              <li>Node.js</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="quality-card">
+            <h3>Familiar:</h3>
+            <ul class="projects-language">
+              <li>C++</li>
+              <li>Python</li>
+              <li>Spring Boot</li>
+              <li>Networking</li>
+            </ul>
+          </div>
+          <div class="quality-card">
+            <h3>Tools:</h3>
+            <ul class="projects-language">
+              <li>Vs Code</li>
+              <li>Google Chrome</li>
+              <li>GitHub</li>
+              <li>MySQL Workbence</li>
+            </ul>
+          </div>
+        </div>
+        <div class="academic-quality text-lg-center">
+          <h1 style="color: aqua;">Educational Background</h1>
+          <p>B.Sc in Software Engineer <br>University Of Dhaka <br>2018-2022</p>
+        </div>
+      </section>
+      <br>
+      <section class="contact-form mx-auto text-center text-white">
+        <h3 style="padding: 20px;">Contact With Me</h3>
+        <form action="" style="border: 1px solid white; box-shadow: 5px 5px 30px 2px gray; padding: 20px; border-radius: 8px;">
+            <input style="color: white; width: 100%; padding: 5px; margin-bottom: 15px;" type="text" placeholder="Please Enter Your Name">
+            <br>
+            <input style="color: white; width: 100%; padding: 5px; margin-bottom: 15px;" type="email" placeholder="Your Email">
+            <br>
+            <textarea style="color: white; width: 100%; padding: 10px; margin-bottom: 15px; height: 100px;" placeholder="Your Message"></textarea>
+            <br>
+            <button style="background-color: aqua; border: none; color: white; width: 100%; padding: 10px 20px;  cursor: pointer;" type="submit">Send</button>
+        </form>
+    </section>
+      <br>
+    </main>
+    <footer>
+      <hr style="border: 1px solid white; margin: 0;">
+      <div class="text-white d-flex flex-column align-items-center justify-content-center text-center" style="height: 200px;">
+        <div>
+          <small>Copyright © 2021 | Gias Uddin <br>Dhaka, Bangladesh</small>
+        </div>
+        <div class="d-flex gap-3">
+          <a href="https://github.com/achibhossengit" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://web.facebook.com/achib.hossen.2024" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/achib-hossen-932869316/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
